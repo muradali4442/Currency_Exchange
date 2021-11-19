@@ -8,7 +8,7 @@ public class CurrencyConverter {
 		double amt, euro, dollar, pound, rupee, code;
  
 		DecimalFormat f = new DecimalFormat("##.##"); 
-		//using ("##.##") for so that we could get values up to two decimal points
+		//using ("##.##") so that we could get values up to two decimal points
 
 		Scanner sc = new Scanner(System.in);
  
